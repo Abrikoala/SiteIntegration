@@ -8,7 +8,7 @@
     <title>Base</title>
 </head>
 
-<body class="bg-dark">
+<header class="bg-dark">
     <div class="text-center text-white" id="title">
         
         <span class="text-center" id="logo"></span>
@@ -23,16 +23,16 @@
           <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link text-white" href="#equipe">Notre équipe</a>
+                <a class="nav-link text-white" href="index.php?page=equipe">Notre équipe</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#joueurs">Joueurs</a>
+                <a class="nav-link text-white" href="index.php?page=joueurs">Joueurs</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#gallerie">Gallerie</a>
+                <a class="nav-link text-white" href="index.php?page=gallerie">Gallerie</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#esgi">ESGI</a>
+                <a class="nav-link text-white" href="index.php?page=esgi">ESGI</a>
               </li>
             </ul>
           </div>
@@ -50,5 +50,5 @@
     <div id="esgi" class="bg-dark-subtle">
         ESGI
     </div>
-</body>
-<script src="assets/js/index.js"></script>
+</header>
+<script src="assets/js/index.js"></script> 

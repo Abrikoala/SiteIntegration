@@ -1,7 +1,35 @@
-html{
-    background-color: lightgray;
+html {
+    background: linear-gradient(black, white);
+    background-color: black;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    size: 100vh;
 }
 
-#présentation{
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%; 
+}
+
+#titre {
+    background-color: white;
+    padding: 10px;
+    margin: 10% auto;
+    text-align: center;
     border: 1px solid black;
+    font-size: xx-large;
+}
+
+#photo {
+    margin: auto;
+    border: 1px solid black;
+}
+
+#description {
+    border: 1px solid black;
+    margin: auto;
+
 }

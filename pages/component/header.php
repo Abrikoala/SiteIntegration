@@ -1,17 +1,5 @@
-<!doctype html>
-<html lang="fr">
+<!DOCTYPE html>
 <head>
-<<<<<<< HEAD
-  <meta charset="utf-8">
-  <title>Titre de la page</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
-</head>
-<body>
- <p>Hello world</p>
-</body>
-</html>
-=======
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Teko">
@@ -62,11 +50,5 @@
     <div id="esgi" class="bg-dark-subtle">
         ESGI
     </div>
-<<<<<<< Updated upstream:index.html
-</body>
-<script src="assets/js/index.js"></script>
->>>>>>> 3fd4593533e6f466f3daf246dc1312dc3123fdae
-=======
 </header>
 <script src="assets/js/index.js"></script> 
->>>>>>> Stashed changes:pages/component/header.php

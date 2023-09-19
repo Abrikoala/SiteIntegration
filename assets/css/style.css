@@ -1,27 +1,71 @@
 :root {
     --primary: #c46723;
     --secondary: #191a1f;
-    --back: #2c2c2c; 
-  }
-  
-
-.nav-link {
-    color:white;
+    --back: #2c2c2c;
 }
 
-#title > span {
+body {
+    background-color: var(--back) !important;
+    font-family: Teko, System !important;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    background: linear-gradient(20deg, var(--back) 20%, var(--primary) 100%);
+
+}
+
+#title>span {
     font-family: Teko, System;
     font-size: calc(40px + 10vh);
     line-height: calc(40px + 10vh);
 }
 
 #title {
-    padding-bottom: -25px;
+    opacity: 1;
+    z-index: 100;
 }
 
-#equipe{
-    height: 300px;
+#subtitle {
+    font-size: 2rem;
+    opacity: 1;
 }
+
+#header-bg {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background: center url("https://wallup.net/wp-content/uploads/2016/01/165482-esport-Electronic_Sports_World_Cup-Dota_2.jpg");
+    background-size: cover;
+    opacity: 0.4;
+    /* z-index: 100; */
+    width: 100%;
+    box-shadow: inset 50px 50px 70px var(--back);
+}
+
+#logo {
+    z-index: 100;
+    margin-left: 10px;
+}
+
+#timer {
+    margin-left: 5px;
+}
+
+#equipe {
+    min-height: 800px;
+    color: white;
+    /* background: center no-repeat url("https://wallup.net/wp-content/uploads/2016/01/165482-esport-Electronic_Sports_World_Cup-Dota_2.jpg");
+    box-shadow: inset 50px 50px 70px var(--back);
+    opacity:0.4; */
+}
+
+
 @keyframes blink {
     0% {
         display: block;
@@ -51,4 +95,9 @@
 
 #blink {
     animation: blink 0.7s ease-in infinite;
+}
+
+header {
+    min-height: 600px;
+    height: 100vh;
 }

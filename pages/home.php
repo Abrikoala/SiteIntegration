@@ -12,8 +12,8 @@
 <script src="assets/js/index.js"></script>
 <body>
   <?php
-      include("component/header_main.php");
       include("component/navbar.php");
+      include("component/header_main.php");
   ?>
 
 </body>

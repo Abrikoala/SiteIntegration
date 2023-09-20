@@ -7,7 +7,7 @@
         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link text-white fs-3 px-4" href="#equipe"><span>Notre équipe</span></a>
+                    <a class="nav-link text-white fs-3 px-4" href="#equip"><span>Notre équipe</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-white fs-3 px-4" href="#joueurs">Joueurs</a>

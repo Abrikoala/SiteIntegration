@@ -5,9 +5,10 @@
 
 <body>
   <div class="container">
-    <div id="equipe" class="row">
+      
+    <div id="equip" class="row mt-5">
       <h2 class="text-info">Notre équipe</h2>  
-      <h1 class="text-white display-4 ">Origines de l'équipe </h1>
+      <h1 class="text-white display-4">Origines de l'équipe</h1>
       <div class="col mt-5">
         <p class="fs-2 text-white mb-4">Dans le monde en constante évolution des sports électroniques, une équipe se distingue par son engagement, son talent et sa passion inébranlable pour la compétition. Cette équipe, c'est "HelloWorld Esports".</p>
         <p class="fs-2 text-white">Fondée en 2019 par un groupe de joueurs passionnés, HelloWorld s'est rapidement imposée comme une force à compter dans le paysage des sports électroniques. Ce nom, "HelloWorld", qui évoque les premiers pas dans le monde de la programmation, reflète parfaitement l'ambition de l'équipe : repousser les limites, explorer de nouvelles frontières et faire découvrir un univers de jeu toujours plus vaste.</p>

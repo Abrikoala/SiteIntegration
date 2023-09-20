@@ -14,7 +14,8 @@ body {
 }
 
 .nav-link:hover {
-    background: linear-gradient(20deg, var(--back) 20%, var(--primary) 100%);
+    text-shadow: 0 0 15px var(--primary), 0 0 15px var(--primary), 0 0 15px var(--primary);
+    /* background: linear-gradient(20deg, var(--back) 20%, var(--primary) 100%); */
 
 }
 
@@ -64,9 +65,6 @@ body {
     line-height: calc(30px + 5vh);
 }
 
-#navbarNav {
-    background-color: var(--back);
-}
 
 @media screen and (max-height: 600px) {
     #header-bg {
@@ -77,6 +75,10 @@ body {
 #logo {
     z-index: 100;
     margin-left: 10px;
+    text-decoration: none;
+    font-size: calc(30px + 5vh);
+    line-height: calc(30px + 5vh);
+    color: white
 }
 
 #timer {

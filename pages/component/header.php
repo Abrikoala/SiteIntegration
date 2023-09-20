@@ -15,7 +15,7 @@
     <img id="header-bg" src="/assets/images/header-bg.jpg">
     <div class="d-flex justify-content-center align-items-center text-white flex-column w-100">
         <div id="title">
-            <span class="text-center" id="logo"></span>
+            <a class="text-center" id="logo" href="/"></a>
             <span id="blink">.</span>
         </div>
     </div>

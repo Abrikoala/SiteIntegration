@@ -67,3 +67,6 @@
     </div>
 
 </body>
+<script>
+    document.getElementById("navbarNav").style = "background-color: var(--back)"
+</script>

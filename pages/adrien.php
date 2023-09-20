@@ -22,7 +22,7 @@
                 <img class="w-100" src="/assets/images/Adrien/eldenring.jpeg" alt="">
             </div>
             <div class="col-3 mx-5">
-                <img class="w-100" src="/assets/images/Adrien/forhonor.jpeg" alt="">
+                <img class="w-100" src="/assets/images/Adrien/forhonor.png" alt="">
             </div>
         </div>
     </div>

@@ -6,7 +6,7 @@
 <body>
   <div class="container">
       
-    <div id="equip" class="row mt-5">
+    <div id="equip" class="row m-5">
       <h2 class="text-info">Notre équipe</h2>  
       <h1 class="text-white display-4">Origines de l'équipe</h1>
       <div class="col mt-5">
@@ -15,7 +15,7 @@
       </div>
     </div>
 
-    <div id="joueurs" class="row mt-5">
+    <div id="joueurs" class="row m-5">
       <h2 class="text-info">Joueurs</h2>  
       <h1 class="text-white display-4 ">Joueurs de l'équipe HELLO WORLD </h1>
       <div class="col-4 border-2 rounded rounded-4 mt-5">

@@ -1,7 +1,7 @@
 <header class="d-flex justify-content-center align-items-center">
   <img id="header-bg" src="assets/images/header-bg.jpg">
   <div class="d-flex justify-content-center align-items-center text-white flex-column w-100">
-    <div id="title">
+    <div id="title" class="d-flex">
       <span class="text-center" id="logo"></span>
       <span id="blink">.</span>
     </div>

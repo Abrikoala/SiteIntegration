@@ -9,6 +9,7 @@
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <title>Hello World</title>
 </head>
+<script src="assets/js/index.js"></script>
 
 <header class="d-flex justify-content-center align-items-center">
   <img id="header-bg" src="assets/images/header-bg.jpg">
@@ -35,3 +36,4 @@
   setTimeout(fadeIn, 3000, "subtitle")
   setTimeout(fadeIn, 4000, "discoverbtn")
 </script>
+

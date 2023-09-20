@@ -11,23 +11,7 @@
 </head>
 
 <body>
-  <header class="d-flex justify-content-center align-items-center">
-    <img id="header-bg" src="assets/img/header-bg.jpg">
-    <div class="d-flex justify-content-center align-items-center text-white flex-column w-100">
-      <div id="title">
-        <span class="text-center" id="logo"></span>
-        <span id="blink">.</span>
-      </div>
-
-      <div style="display: flex; z-index: 100" id="subtitle">
-        Équipe de talent depuis :
-        <span id="timer"></span>
-      </div>
-    </div>
-
-
-
-  </header>
+  
   <nav class="navbar navbar-expand-lg sticky-top">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"

@@ -23,6 +23,8 @@ function timer() {
     setTimeout(timer, 1000)
 }
 
-timer()
-setTimeout(typeWriter, 1000)
+function fadeIn(elem) {
+    document.getElementById(elem).classList += " fadeIn"
+}
+
 // typeWriter()

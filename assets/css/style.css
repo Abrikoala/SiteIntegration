@@ -31,7 +31,7 @@ body {
 
 #subtitle {
     font-size: 2rem;
-    opacity: 1;
+    opacity: 0;
 }
 
 #header-bg {
@@ -40,12 +40,28 @@ body {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    background: center url("https://wallup.net/wp-content/uploads/2016/01/165482-esport-Electronic_Sports_World_Cup-Dota_2.jpg");
-    background-size: cover;
     opacity: 0.4;
     /* z-index: 100; */
     width: 100%;
     box-shadow: inset 50px 50px 70px var(--back);
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+.header-min #header-bg {
+    height: 80px;
+}
+
+.header-min {
+    height: 80px;
+    min-height: 80px;
+}
+
+@media screen and (max-height: 600px) {
+    #header-bg {
+        height: 600px
+    }
 }
 
 #logo {
@@ -57,6 +73,7 @@ body {
     margin-left: 5px;
 }
 
+
 #equipe {
     min-height: 800px;
     color: white;
@@ -65,6 +82,26 @@ body {
     opacity:0.4; */
 }
 
+#discoverbtn {
+    z-index: 100;
+    font-size: 2rem;
+    padding-top: 12px;
+    line-height: 2rem;
+    color: var(--primary);
+    text-shadow: 0 0 10px black;
+    opacity: 0;
+    border: 1px solid var(--primary)
+}
+
+.fadeIn {
+    transition: 1s !important;
+    opacity: 1 !important;
+}
+
+#discoverbtn:hover {
+    backdrop-filter: blur(8px);
+    transition: all .15s linear
+}
 
 @keyframes blink {
     0% {

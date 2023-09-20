@@ -1,6 +1,5 @@
 html {
-    background: linear-gradient(black, white);
-    background-color: black;
+    background-color: #222222;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -17,7 +16,7 @@ body {
 #titre {
     background-color: white;
     padding: 10px;
-    margin: 10% auto;
+    margin: 5% auto;
     text-align: center;
     border: 1px solid black;
     font-size: xx-large;
@@ -30,6 +29,7 @@ body {
 
 #description {
     border: 1px solid black;
-    margin: auto;
+    margin: auto 10%;
+    color: white;
 
 }

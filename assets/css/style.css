@@ -52,7 +52,7 @@ body {
 }
 
 .header-min #header-bg {
-    height: 100px;
+    height: 60px;
 }
 
 .header-min {
@@ -161,7 +161,6 @@ header {
 }
   
 .img-container:hover img {
-    transition: transform 0.3s ease;
     transform: scale(1.1); 
 }
   

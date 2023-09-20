@@ -1,9 +1,33 @@
 html{
-    background-color:burlywood ;
-    
-
+    background-color:rgb(33, 33, 33) ;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-body{
+
+
+#titre{
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-    
+    margin-top: 20px;
+    margin-bottom: 35px;
+    font-size: 240%;
+    background-color: burlywood;
+}
+
+#img{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+
+#desc{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 150%;
+    background-color: burlywood;
 }

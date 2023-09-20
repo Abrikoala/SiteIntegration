@@ -1,7 +1,7 @@
 :root {
     --primary: #c46723;
     --secondary: #191a1f;
-    --back: #2c2c2c;
+    --back: black;
 }
 
 body {
@@ -52,7 +52,7 @@ body {
 }
 
 .header-min #header-bg {
-    height: 60px;
+    height: 100px;
 }
 
 .header-min {
@@ -150,3 +150,18 @@ header {
     min-height: 600px;
     height: 100vh;
 }
+
+.img-container {
+    overflow: hidden;
+    position: relative;
+}
+  
+.img-container img {
+    transition: transform 0.3s ease;
+}
+  
+.img-container:hover img {
+    transition: transform 0.3s ease;
+    transform: scale(1.1); 
+}
+  

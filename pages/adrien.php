@@ -1,10 +1,9 @@
 <?php
-    include('component/navbar.php');
-    include('component/header_main.php');
+    include('component/header.php');
 ?>
 
 <body>
-    Hello World !
+
 </body>
 
 

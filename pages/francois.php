@@ -11,11 +11,9 @@
 </head>
 
 <body>
-<?php
+  <?php
     include("component/header.php");
     include("component/navbar.php");
-?>
+  ?>
 
 </body>
-
-<script src="/assets/js/index.js"></script>

@@ -11,10 +11,10 @@
 </head>
 <script src="assets/js/index.js"></script>
 <body>
-<?php
-    include("component/header_main.php");
-    include("component/navbar.php");
-?>
+  <?php
+      include("component/header_main.php");
+      include("component/navbar.php");
+  ?>
 
 </body>
 

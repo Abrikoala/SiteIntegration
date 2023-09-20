@@ -58,6 +58,11 @@ body {
     min-height: 80px;
 }
 
+.header-min #title>span {
+    font-size: calc(30px + 5vh);
+    line-height: calc(30px + 5vh);
+}
+
 @media screen and (max-height: 600px) {
     #header-bg {
         height: 600px

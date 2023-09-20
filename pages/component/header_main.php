@@ -16,3 +16,10 @@
     </div>
   </div>
 </header>
+
+<script>
+  timer()
+  setTimeout(typeWriter, 1000)
+  setTimeout(fadeIn, 3000, "subtitle")
+  setTimeout(fadeIn, 4000, "discoverbtn")
+</script>

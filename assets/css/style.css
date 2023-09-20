@@ -50,12 +50,12 @@ body {
 }
 
 .header-min #header-bg {
-    height: 80px;
+    height: 60px;
 }
 
 .header-min {
-    height: 80px;
-    min-height: 80px;
+    height: 60px;
+    min-height: 60px;
 }
 
 .header-min #title>span {
@@ -104,7 +104,7 @@ body {
 }
 
 #discoverbtn:hover {
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(10px);
     transition: all .15s linear
 }
 

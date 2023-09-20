@@ -27,6 +27,7 @@ body {
 #title {
     opacity: 1;
     z-index: 100;
+    margin-top: 10px;
 }
 
 #subtitle {
@@ -50,12 +51,21 @@ body {
 }
 
 .header-min #header-bg {
-    height: 80px;
+    height: 60px;
 }
 
 .header-min {
-    height: 80px;
-    min-height: 80px;
+    height: 60px;
+    min-height: 60px;
+}
+
+.header-min #title>span {
+    font-size: calc(30px + 5vh);
+    line-height: calc(30px + 5vh);
+}
+
+#navbarNav {
+    background-color: var(--back);
 }
 
 @media screen and (max-height: 600px) {
@@ -99,7 +109,7 @@ body {
 }
 
 #discoverbtn:hover {
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(10px);
     transition: all .15s linear
 }
 

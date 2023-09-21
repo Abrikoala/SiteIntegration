@@ -83,7 +83,7 @@
                                     <img class="w-100 rounded rounded-top-4" src="assets/images/placeholder.jpg" alt="">
                                 </a>
                             </div>
-                            <h2 class="text-white text-center ms-2 mt-2">Pierre-Marie</h2>
+                            <h2 class="text-white text-center ms-2 mt-2">Pierre-Marie Talbi</h2>
                         </div>
                     </div>
                 </div>

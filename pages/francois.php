@@ -13,53 +13,36 @@
 <body>
     <?php
     include("component/header.php");
-    include("component/navbar.php");
   ?>
 
     <div class="container-fluid">
-        <div class="row mt-2">
-            <div class="col-6 d-flex justify-content-end"><img src="/assets/images/DSC_0920.JPG" width="300px"
+        <div class="row justify-content-center align-items-center">
+            <div class="col-4 m-5 d-flex justify-content-center"><img src="/assets/images/francois.png" width="300px"
                     height="300px" style="object-fit: cover;"></div>
-            <div class="col-6 text-white">
+            <div class="col-4 m-5 text-white text-center ">
                 <p>
-                <h1>François "Harmdhast" Rivoal</h1>
+                <h1 class="text-white  display-4">François Rivoal</h1>
+                <p class="text-info fs-2 border-bottom ">Joueur de l'équipe HELLO WORLD</p>
                 </p>
-                <ul style="font-size: 2rem;">
-                    <li>Valorant</li>
-                    <li>Valorant</li>
-                    <li>Valorant</li>
-                    <li>Valorant (Valorant)</li>
-                </ul>
             </div>
 
         </div>
-        <div class="row mt-4">
-            <div class="col text-white justify-content-center d-flex">
-                <div class="w-75">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip
-                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                        dolore eu
-                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                        deserunt mollit anim id est laborum.
-                    </p>
-                    <p>
-                        Tellus id interdum velit laoreet id donec ultrices. Iaculis urna id volutpat lacus laoreet non
-                        curabitur gravida. Scelerisque felis imperdiet proin fermentum leo vel. Amet consectetur
-                        adipiscing
-                        elit duis tristique sollicitudin nibh sit amet. Congue nisi vitae suscipit tellus mauris a diam
-                        maecenas. Suspendisse faucibus interdum posuere lorem ipsum dolor sit amet. Mauris commodo quis
-                        imperdiet massa tincidunt nunc pulvinar sapien. Quam viverra orci sagittis eu volutpat odio
-                        facilisis mauris. Tempor commodo ullamcorper a lacus vestibulum sed arcu non. Est placerat in
-                        egestas erat imperdiet sed. Enim tortor at auctor urna nunc. Vestibulum mattis ullamcorper velit
-                        sed
-                        ullamcorper morbi. Morbi tristique senectus et netus et malesuada fames ac.
-                    </p>
-                </div>
+        <div class="row justify-content-center">
+            <div class="col-4 mx-5 text-white justify-content-center d-flex">
+                <h2 class="text-center">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore eu
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.
+                </h2>
+            </div>
+            <div class="col-4 mx-5 text-white justify-content-center d-flex">
+                <img width="300px" height="300px" style="object-fit: cover;" src="/assets/images/francois/valo.png">
             </div>
         </div>
 
@@ -68,5 +51,5 @@
 
 </body>
 <script>
-    document.getElementById("navbarNav").style = "background-color: var(--back)"
+document.getElementById("navbarNav").style = "background-color: var(--back)"
 </script>

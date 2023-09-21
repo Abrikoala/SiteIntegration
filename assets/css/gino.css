@@ -9,8 +9,7 @@ body {
 
 .h1-div {
     color: #00A7E1;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 40px;
     text-align: center;
     margin-top: 40px;
     margin-bottom: 15px;
@@ -18,8 +17,7 @@ body {
 
 img {
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
+    margin-left: 40px;
+    width: 3000%;
     border-radius: 20px;
 }

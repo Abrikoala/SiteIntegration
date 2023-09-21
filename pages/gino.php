@@ -7,10 +7,23 @@
 
     <title>Base</title>
 </head>
+
+<?php
+    include("component/header.php");
+    include("component/navbar.php");
+  ?>
+
 <body>
     <div class="h1-div">
-        <h1>Moi</h1>
+        <h1>Gino</h1>
     </div>
-    <img loading="lazy" src="../assets/img/DSC_0922 2.jpg" alt="mwa">
+<<<<<<< HEAD
+    <img loading="lazy" src="../assets/images/DSC_0922 2.jpg" alt="mwa">
+
+    <h1>Jeux vidéo Joué :</h1>
+    <p>MINECRAFT (et encore ça fait longtemps, et quand je l'ai lancé la dernière fois cetait pour faire des commands block..)<p>
     
+=======
+    <img loading="lazy" src="/assets/images/gino.png" alt="mwa">
+>>>>>>> refs/remotes/origin/main
 </body>

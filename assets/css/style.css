@@ -1,7 +1,7 @@
 :root {
     --primary: #c46723;
-    --secondary: #191a1f;
-    --back: #2c2c2c;
+    --secondary: #101010;
+    --back: black;
 }
 
 body {
@@ -58,11 +58,25 @@ body {
 .header-min {
     height: 60px;
     min-height: 60px;
+    margin-top: 0 !important;
 }
 
 .header-min #title>span {
-    font-size: calc(30px + 5vh);
-    line-height: calc(30px + 5vh);
+    font-size: 60px;
+    line-height: 30px;
+}
+
+.header-min #title>a {
+    font-size: 60px;
+    line-height: 30px;
+}
+
+.header-min #title:hover>a {
+    text-shadow: 0 0 15px var(--primary), 0 0 15px var(--primary), 0 0 15px var(--primary);
+}
+
+.header-min #title:hover>span {
+    text-shadow: 0 0 15px var(--primary), 0 0 15px var(--primary), 0 0 15px var(--primary);
 }
 
 
@@ -149,4 +163,75 @@ body {
 header {
     min-height: 600px;
     height: 100vh;
+    margin-top: -58px;
+}
+
+.img-container {
+    overflow: hidden;
+    position: relative;
+}
+
+.img-container img {
+    transition: transform 0.3s ease;
+}
+
+.img-container:hover img {
+    transform: scale(1.1);
+}
+
+html:not([data-scroll='0']) nav {
+    background-color: var(--back);
+
+    /* This box-shadow will help sell the floating effect */
+    box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
+}
+
+.bloc {
+    display: flex;
+    align-items: center;
+    min-height: 600px !important;
+    height: 100vh !important;
+}
+
+.carousel-item img {
+    max-height: 500px;
+    min-width: auto;
+    object-fit: cover;
+}
+
+#joueurs-link {
+    text-decoration: none;
+    color: var(--primary)
+}
+
+#joueurs-link:hover {
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 0 15px var(--primary), 0 0 15px var(--primary), 0 0 15px var(--primary);
+}
+
+a {
+    cursor: pointer;
+}
+
+.img-container img {
+    width: 100%;
+    max-width: 240px;
+    height: 240px;
+    object-fit: cover;
+    object-position: top;
+}
+
+footer {
+    background-color: var(--secondary);
+    height: 80px;
+}
+
+#rezo>a>img {
+    filter: grayscale(100%) contrast(150%);
+}
+
+#rezo>a:hover>img {
+    transition: 0.5s;
+    filter: none
 }

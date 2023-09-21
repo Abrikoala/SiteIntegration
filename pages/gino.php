@@ -11,6 +11,5 @@
     <div class="h1-div">
         <h1>Moi</h1>
     </div>
-    <img loading="lazy" src="../assets/img/DSC_0922 2.jpg" alt="mwa">
-    
+    <img loading="lazy" src="/assets/images/gino.png" alt="mwa">
 </body>

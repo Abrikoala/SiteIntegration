@@ -18,6 +18,5 @@ body {
 img {
     display: flex;
     margin-left: 40px;
-    width: 3000%;
     border-radius: 20px;
 }

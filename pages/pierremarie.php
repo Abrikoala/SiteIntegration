@@ -15,7 +15,6 @@
 <body>
     <?php
     include("component/header.php");
-    include("component/navbar.php");
     ?>
     <div id="titre">
         Pierre-Marie

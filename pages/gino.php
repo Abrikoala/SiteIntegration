@@ -17,9 +17,13 @@
     <div class="h1-div">
         <h1>Gino</h1>
     </div>
+<<<<<<< HEAD
     <img loading="lazy" src="../assets/images/DSC_0922 2.jpg" alt="mwa">
 
     <h1>Jeux vidéo Joué :</h1>
     <p>MINECRAFT (et encore ça fait longtemps, et quand je l'ai lancé la dernière fois cetait pour faire des commands block..)<p>
     
+=======
+    <img loading="lazy" src="/assets/images/gino.png" alt="mwa">
+>>>>>>> refs/remotes/origin/main
 </body>

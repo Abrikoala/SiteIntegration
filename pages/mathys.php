@@ -23,15 +23,15 @@
         <p>MATHYS</p>
     </div>
     <div id="photo">
-
-        <img src="../assets/images/mathys/inconnu.png" width=50% height=50%>
-
+        <img src="../assets/images/mathys/Dofus_Logo.png">
+        <img src="../assets/images/mathys/inconnu.png" width=25% height=25%>
     </div>
     <div id="description">
         <h1>Age : 20</h1>
         <h1>Sosie du prince Harry apparemment</h1>
         <h1>Meilleur en sport que en esport</h1>
         <h1>Amateur de basket, de muscu et de moto</h1>
+        <h1>4000h de jeu sur Dofus</h1>
     </div>
     <img id="ballon" src="../assets/images/mathys/ballon_de_basket.png">
 </body>

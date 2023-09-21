@@ -65,7 +65,7 @@
                     </div>
                 </div>
                 <div class="row mt-4">
-                    <div class="col-4 border-2 rounded rounded-4 mt-2 ms-auto">
+                    <div class="col-4 border-2 rounded rounded-4 ms-auto">
                         <div class="mx-2  rounded rounded-3 d-flex flex-column align-items-center">
                             <div class="img-container">
                                 <a href="pages/mathys.php">
@@ -76,7 +76,7 @@
                         </div>
                     </div>
 
-                    <div class="col-4 border-2 rounded rounded-4 mt-2 me-auto">
+                    <div class="col-4 border-2 rounded rounded-4 me-auto">
                         <div class="mx-2 rounded rounded-3 d-flex flex-column align-items-center">
                             <div class="img-container">
                                 <a href="pages/pierremarie.php">

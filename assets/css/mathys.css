@@ -1,5 +1,4 @@
 html {
-    background-color: #222222;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -11,6 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%; 
+    width: 100%;
 }
 
 #titre {
@@ -18,7 +18,6 @@ body {
     padding: 10px;
     margin: 5% auto 0%;
     text-align: center;
-    border: 1px solid black;
     font-size: xx-large;
     width: 60%;
 }
@@ -35,6 +34,8 @@ body {
     margin: auto 10%;
     padding: 1%;
     font-size: large;
+    text-align: center;
+
 }
 
 #ballon {
